@@ -1,0 +1,196 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../font/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../font/playfair/PlayfairDisplay-Bold.ttf);
+}
+
+header {
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    height: 700px;
+}
+
+nav {
+    width: 1240px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+nav a {
+    font-family: montserrat;
+    font-weight: bold;
+    text-decoration: none;
+    color: #CC0085;
+    font-size: 1.2em;
+    float: left;
+    width: 200px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#logo {
+    padding: 10px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: playfair;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 5em;
+    width: 930px;
+}
+
+.centered1 {
+    position: absolute;
+    width: 628px;
+    height: 135px;
+    left: 42%;
+    top: 500px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.largebox {
+    width: 1088px;
+    height: 384px;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+
+#box1 {
+    width: 352px;
+    height: 384px;
+    background-color: #EBEBEB;
+    float: left;
+    border-radius: 25px;
+}
+
+#box2 {
+    width: 352px;
+    height: 384px;
+    background-color: #EBEBEB;
+    float: left;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+#box3 {
+    width: 352px;
+    height: 384px;
+    background-color: #EBEBEB;
+    float: right;
+    border-radius: 25px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #CC0085;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fotos {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    background-color: #eee;
+    color: #CC0085;
+    cursor: pointer;
+    font-family: montserrat;
+    font-size: 1.2em;
+    width: 1089px;
+    height: 101px;
+    text-align: left;
+    border-color: #CC0085;
+    transition: 0.4s;
+    margin-left: 400px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border-color: #CC0085;
+}
+
+#titellinks {
+    color: #CC0085;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 350px;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#titellinks2 {
+    color: #CC0085;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#tekstlinks {
+    width: 720px;
+    color: #CC0085;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-left: 400px;
+    font-size: 1.3em;
+}
+
+#knop {
+    width: 270px;
+    height: 60px;
+    background-color: #CC0085;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 1220px;
+    margin-top: -70px;
+}
